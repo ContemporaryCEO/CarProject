@@ -1,0 +1,79 @@
+{
+  "switchEng": true,
+  "layouts": {
+    "EN_layout": {
+      "Company Name": "Hyperion",
+      "WelcomeMessage": "We Provide Best Services",
+      "Benefits": {
+        "BestMaterials": {
+          "Caption": "Best Materials",
+          "jsxIcon": "<SettingsIcon />",
+          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
+          "SubmitButton": "Learn more"
+        },
+        "24x7Service": {
+          "Caption": "24x7 Service",
+          "jsxIcon": "<HomeRepairServiceIcon />",
+          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
+          "SubmitButton": "Learn more"
+        },
+        "FastCarService": {
+          "Caption": "Fast Car Service",
+          "jsxIcon": "<DirectionsCarIcon />",
+          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
+          "SubmitButton": "Learn more"
+        },
+        "OurBestWorkers": {
+          "Caption": "Our Best Workers",
+          "jsxIcon": "<WorkIcon />",
+          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
+          "SubmitButton": "Learn more"
+        }
+      },
+      "carItems": [{
+        "img": "https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca5c285894f_-_100-cars-003-lotus-esprit-s4-1211-xln-35905301.jpg?resize=980:*",
+        "title": "Lotus Esprit (1993–2004)",
+        "author": "Lotus Esprit (1993–2004)",
+        "text": "A loud, theatrical, mind- frazzling event. For this the word supercar was invented. Yet, whisper it, became far better-sorted than the reputation of its predecessors would have you believe"
+      },{
+        "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li217228072687fer_5.jpg?w=848&h=477",
+        "title": "Ferrari 458 Speciale",
+        "author": "Ferrari 458 Speciale",
+        "text": "Integrated multi-facet chassis electronics are a game- changer in extending the boundaries of your skills. But we’ll remember it for its savage, charismatic n/a V8"
+      },
+        {
+          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li1035821_jl37193.jpg?w=848&h=477",
+          "title": "Audi R8 V10 Manual",
+          "author": "Audi R8 V10 Manual",
+          "text": "Its styling and rock-solid Audi cabin have aged well. Uses 4WD and a small nat-asp V8 to terrific effect, making you concentrate, but it won’t slap you"
+        },
+        {
+          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/mclaren_3.jpg?w=848&h=477",
+          "title": "McLaren 675TLT",
+          "author": "McLaren 675TLT",
+          "text": "The 675LT’s magically talkative steering works with a gorgeous chassis and buzz-saw engine. After just five years, Woking proved it could match any rival anywhere, anyhow"
+        },
+        {
+          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/nissan_1.jpg?w=848&h=477",
+          "title": "Nissan GT-R",
+          "author": "Nissan GT-R",
+          "text": "So unique and anti-establishment that it became a generation’s cultural phenomenon. Huge acceleration thanks to immense traction. Has a reputation for digital aloofness, but is actually soulful and analogue"
+        },
+        {
+          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/porsche_0.jpg?w=848&h=477",
+          "title": "Porsche 911 GT3 RS 4.0 (997)",
+          "author": "Porsche 911 GT3 RS 4.0 (997)",
+          "text": "The Mezger engine’s mighty 4.0 swansong, a car you could drive to Le Mans and race there. Too serious to be a supercar? Maybe, but it elicits smiles as well as awe"
+        },
+        {
+          "img": "https://www.topgear.com/sites/default/files/2022/03/mansory-ferrari-roma-01.jpg?w=976&h=549",
+          "title": "Ferrari Roma",
+          "author": "Ferrari Roma",
+          "text": "Just look at the thing. Mansory describes this as a “complete conversion” with a whole load of new carbon fibre add-ons, a very sharp new front bumper, an aggressive rear diffuser and many other bits. You can even have a full carbon fibre bonnet and a choice of two different rear spoilers. It’s not shy, that’s for sure. "
+        }
+      ]
+
+    }
+  }
+
+}
