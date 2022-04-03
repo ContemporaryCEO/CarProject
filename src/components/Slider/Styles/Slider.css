@@ -1,12 +1,14 @@
 .item {
+    transition: linear .3s;
     min-height: 40rem;
     min-width: 90rem;
     padding: 4rem;
 }
 
-.slider-item {
-    border-radius: 2rem;
+.item-inactive {
+    filter:brightness(50%);
 }
+
 
 .item img {
     width: 100%;

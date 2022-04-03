@@ -9,19 +9,26 @@ import './assets/App.css'
 import { News } from './components/News'
 import { ContentSection } from './components/Content/Content'
 import { Models } from './components/Models/Models'
+import { Footer } from './components/Footer/Footer'
+import { SubFooter } from './components/Footer/SubFooter'
 
+//  TODO: Add modals
 const App = () => {
   return (<ThemeProvider theme={theme}>
-            <>
-                <CssBaseline/>
-                <Navbar/>
-                <main>
-                    <News/>
-                    <ContentSection/>
-                    <Models />
-                </main>
-            </>
-        </ThemeProvider>)
+        <>
+            <CssBaseline/>
+            <header><Navbar/></header>
+            <main>
+                <News/>
+                <ContentSection/>
+                <Models/>
+            </main>
+            <footer>
+                <Footer/>
+                <SubFooter />
+            </footer>
+        </>
+    </ThemeProvider>)
 }
 
 export default App

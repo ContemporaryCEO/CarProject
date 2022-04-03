@@ -1,0 +1,24 @@
+.model-list-item:hover .model-image {
+    opacity: 10%;
+}
+
+.model-list-item:hover .model-list-item-text {
+    opacity: 100%;
+}
+
+.model-list-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.model-image {
+    transition: linear .3s;
+}
+
+.model-list-item-text {
+    transition: linear .3s;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    left:5%;
+}

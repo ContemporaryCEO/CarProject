@@ -3,6 +3,10 @@
     transition: linear .3s;
 }
 
+.card {
+    max-height: 100%;
+}
+
 .card-holder {
     display: flex;
     flex-direction: row;
@@ -32,4 +36,8 @@
 
 .cards:hover {
     transform: translateY(-10%);
+}
+
+.card-text {
+    text-overflow: ellipsis;
 }

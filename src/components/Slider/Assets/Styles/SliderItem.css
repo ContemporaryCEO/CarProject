@@ -1,6 +1,7 @@
 .slider-item {
     position: relative;
     overflow: hidden;
+    border-radius: 2rem;
 }
 
 .slider-image {
@@ -11,6 +12,7 @@
     transform: translateY(-100%);
     opacity: 100;
 }
+
 
 .slider-item:hover .slider-item-caption {
     transform: translateY(-100%);

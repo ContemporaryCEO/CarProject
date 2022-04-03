@@ -1,4 +1,7 @@
 import { createTheme, responsiveFontSizes } from '@mui/material/styles'
+import config from '../config/default.json'
+
+const breakpoints = config.windowBreakpoints
 
 const themeOptions = {
   palette: {
@@ -6,11 +9,11 @@ const themeOptions = {
   },
   breakpoints: {
     values: {
-      xs: 0,
-      sm: 780,
-      md: 1120,
-      lg: 1520,
-      xl: 1536
+      xs: breakpoints.xs,
+      sm: breakpoints.sm,
+      md: breakpoints.md,
+      lg: breakpoints.lg,
+      xl: breakpoints.xl
     }
   }
 }

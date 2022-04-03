@@ -1,79 +1,228 @@
 {
   "switchEng": true,
+  "windowBreakpoints": {
+    "xs": 0,
+    "sm": 780,
+    "md": 1120,
+    "lg": 1520,
+    "xl": 1536
+  },
   "layouts": {
     "EN_layout": {
-      "Company Name": "Hyperion",
-      "WelcomeMessage": "We Provide Best Services",
-      "Benefits": {
-        "BestMaterials": {
-          "Caption": "Best Materials",
-          "jsxIcon": "<SettingsIcon />",
-          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
-          "SubmitButton": "Learn more"
+      "Navbar": {
+        "links": [
+          "Models", "Pricing", "Ownership", "Blog"
+        ],
+        "options": [
+          "Profile", "Account", "Dashboard", "Logout"
+        ]
+      },
+      "Slider": [
+        {
+          "imageSource": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe",
+          "caption": "First look at the Lotus Eletre, an EV SUV",
+          "text": "Famous YouTuber Shmee150 got a first look at the new Lotus Eletre, a high-end luxury, all-electric SUV, this is actually the first four-door model ever from Lotus, and it’s a preview of things to come, as Lotus prepares to launch a sedan on the same bases, and a smaller SUV,..."
         },
-        "24x7Service": {
-          "Caption": "24x7 Service",
-          "jsxIcon": "<HomeRepairServiceIcon />",
-          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
-          "SubmitButton": "Learn more"
+        {
+          "imageSource": "https://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2",
+          "caption": "The highest mileage Bugatti Centodieci",
+          "text": "In the end, we’ll be seeing a total production of just 10 units for the amazing Bugatti Centodieci, an homage to another great Bugatti, the 90s EB110, back in the Nineties a V12 with four turbochargers delivering 610 PS was an amazing feat, making the Bugatti EB110 a reference car..."
         },
-        "FastCarService": {
-          "Caption": "Fast Car Service",
-          "jsxIcon": "<DirectionsCarIcon />",
-          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
-          "SubmitButton": "Learn more"
+        {
+          "imageSource": "https://imageio.forbes.com/specials-images/imageserve/5d37033a95e0230008f64eb2/2020-Aston-Martin-Rapide-E/0x0.jpg?fit=crop&format=jpg&crop=3000,1687,x0,y157,safe",
+          "caption": "Behind the scenes at the Koenigsegg Factory",
+          "text": "Visiting Koenigsegg Automotive AB in Ängelholm, Sweden is like a pilgrimage for car enthusiasts like us, getting a guided tour through the factory itself by none other than Christan Von Koenigsegg himself is the cherry on the cake for sure, just think about the fact you’ll be seeing several multi-million..."
         },
-        "OurBestWorkers": {
-          "Caption": "Our Best Workers",
-          "jsxIcon": "<WorkIcon />",
-          "Text": "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo",
-          "SubmitButton": "Learn more"
+        {
+          "imageSource": "https://car-images.bauersecure.com/pagefiles/90541/best_supercar_051.jpg",
+          "caption": "The Prodrive Hunter, a 600 hp all-terrain hypercar",
+          "text": "If you take a Dakar rally car like the Bahrain Raid Extreme competition car piloted by nine-time World Champion, Sebastian Loeb, and convert it into a street-legal version you’ll end up with the Prodrive Hunter, which is effectively the world’s first all-terrain hypercar, and while the Hunter retained the engine,..."
+        },
+        {
+          "imageSource": "https://static.motor.es/fotos-noticias/2022/03/alpine-a4810-concept-202285708-1647617472_1.jpg",
+          "caption": "Maserati unveils the new Grecale SUV",
+          "text": "The global premiere of the brand new Maserati Grecale was just completed in Modena, the “Everyday Exceptional” as they call it, a sports SUV that fits below the in-house Levante, and that will compete with models like the Porsche Macan and the BMW X4 M, and Maserati isn’t taking any..."
+        },
+        {
+          "imageSource": "https://www.topgear.com/sites/default/files/2022/03/2022_03_BMW_ALPINA_B4_G26_Press05.jpg?w=976&h=549",
+          "caption": "The new Alpina B4 Gran Coupe has more power than a BMW M4",
+          "text": "The new Alpina B4 Gran Coupe is a rather big deal. It’s the first car that the stupendously-cool German tuner has unveiled since the news broke that it’d been bought out by the BMW Group."
+        },
+        {
+          "imageSource": "https://www.topgear.com/sites/default/files/2022/04/1-Lamborghini-Aventador-Ultimae.jpg?w=976&h=549",
+          "caption": "Lamborghini Aventador Ultimae review: last dance for non-hybrid V12 Lambos",
+          "text": "Ultimae is latin for the final or last. Which this is. Not just the last Aventador, but the last appearance of Lamborghini’s V12 before the Aventador replacement appears with V12 hybrid power."
+        },
+        {
+          "imageSource": "https://www.topgear.com/sites/default/files/2022/03/1-Dacia-Jogger.jpg?w=976&h=549",
+          "caption": "Dacia Jogger review",
+          "text": "We’ve all experienced lockdowns and Covid restrictions very differently – some people took up handy new skills or learned languages, while others brushed up on their television series and ate crisps (ahem). "
+        }
+      ],
+      "Content": {
+        "Company Name": "Hyperion",
+        "WelcomeMessage": "We Provide Best Services",
+        "Benefits": {
+          "BestMaterials": {
+            "Caption": "Best Materials",
+            "jsxIcon": "<SettingsIcon />",
+            "Text": "We provide only high-quality materials and auto parts for all kinds and types of vehicles, including electric vehicles.",
+            "SubmitButton": "Learn more"
+          },
+          "24x7Service": {
+            "Caption": "24x7 Service",
+            "jsxIcon": "<HomeRepairServiceIcon />",
+            "Text": "All our service centers work around the clock, and the hotline and technical support phone is available on an ongoing basis.",
+            "SubmitButton": "Learn more"
+          },
+          "FastCarService": {
+            "Caption": "Fast Car Service",
+            "jsxIcon": "<DirectionsCarIcon />",
+            "Text": "Repair and maintenance of machines in most cases occurs without delay. In case of delay, compensation will be returned.",
+            "SubmitButton": "Learn more"
+          },
+          "OurBestWorkers": {
+            "Caption": "Our Best Workers",
+            "jsxIcon": "<WorkIcon />",
+            "Text": "We employ only the most qualified and experienced workers.",
+            "SubmitButton": "Learn more"
+          },
+          "ProductQuality": {
+            "Caption": "Product quality",
+            "jsxIcon": "<HighQualityIcon />",
+            "Text": "Products are purchased by us only from official dealers and retailers.",
+            "SubmitButton": "Learn more"
+          }
         }
       },
-      "carItems": [{
-        "img": "https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca5c285894f_-_100-cars-003-lotus-esprit-s4-1211-xln-35905301.jpg?resize=980:*",
-        "title": "Lotus Esprit (1993–2004)",
-        "author": "Lotus Esprit (1993–2004)",
-        "text": "A loud, theatrical, mind- frazzling event. For this the word supercar was invented. Yet, whisper it, became far better-sorted than the reputation of its predecessors would have you believe"
-      },{
-        "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li217228072687fer_5.jpg?w=848&h=477",
-        "title": "Ferrari 458 Speciale",
-        "author": "Ferrari 458 Speciale",
-        "text": "Integrated multi-facet chassis electronics are a game- changer in extending the boundaries of your skills. But we’ll remember it for its savage, charismatic n/a V8"
+      "Models": {
+        "headerMessage": "Our Best Models",
+        "subheaderMessage": "And that is not all",
+        "carItems": [
+          {
+            "img": "https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca5c285894f_-_100-cars-003-lotus-esprit-s4-1211-xln-35905301.jpg?resize=980:*",
+            "title": "Lotus Esprit (1993–2004)",
+            "author": "Lotus Esprit (1993–2004)",
+            "text": "A loud, theatrical, mind- frazzling event. For this the word supercar was invented. Yet, whisper it, became far better-sorted than the reputation of its predecessors would have you believe"
+          },{
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li217228072687fer_5.jpg?w=848&h=477",
+            "title": "Ferrari 458 Speciale",
+            "author": "Ferrari 458 Speciale",
+            "text": "Integrated multi-facet chassis electronics are a game- changer in extending the boundaries of your skills. But we’ll remember it for its savage, charismatic n/a V8"
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li1035821_jl37193.jpg?w=848&h=477",
+            "title": "Audi R8 V10 Manual",
+            "author": "Audi R8 V10 Manual",
+            "text": "Its styling and rock-solid Audi cabin have aged well. Uses 4WD and a small nat-asp V8 to terrific effect, making you concentrate, but it won’t slap you"
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/mclaren_3.jpg?w=848&h=477",
+            "title": "McLaren 675TLT",
+            "author": "McLaren 675TLT",
+            "text": "The 675LT’s magically talkative steering works with a gorgeous chassis and buzz-saw engine. After just five years, Woking proved it could match any rival anywhere, anyhow"
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/nissan_1.jpg?w=848&h=477",
+            "title": "Nissan GT-R",
+            "author": "Nissan GT-R",
+            "text": "So unique and anti-establishment that it became a generation’s cultural phenomenon. Huge acceleration thanks to immense traction. Has a reputation for digital aloofness, but is actually soulful and analogue"
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/porsche_0.jpg?w=848&h=477",
+            "title": "Porsche 911 GT3 RS 4.0 (997)",
+            "author": "Porsche 911 GT3 RS 4.0 (997)",
+            "text": "The Mezger engine’s mighty 4.0 swansong, a car you could drive to Le Mans and race there. Too serious to be a supercar? Maybe, but it elicits smiles as well as awe"
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2022/03/mansory-ferrari-roma-01.jpg?w=976&h=549",
+            "title": "Ferrari Roma",
+            "author": "Ferrari Roma",
+            "text": "Just look at the thing. Mansory describes this as a “complete conversion” with a whole load of new carbon fibre add-ons, a very sharp new front bumper, an aggressive rear diffuser and many other bits. You can even have a full carbon fibre bonnet and a choice of two different rear spoilers. It’s not shy, that’s for sure. "
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2022/03/APRIL%20FOOL%20FRONT%2034.jpg?w=976&h=549",
+            "title": "Land Rover Discovery",
+            "author": "Land Rover Discovery",
+            "text": "Today, British 4x4 specialist Land Rover has announced the next Land Rover Discovery will be a lightweight sports car. \n\nTired of all the traditional sports car makers – Ferrari, Lamborghini, Alpine, Aston Martin and now even Lotus – muscling onto its patch with big lifestyle SUVs, Land Rover has decided to beat them all at their own game. "
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2021/12/20211214_BEV_13.jpg?w=976&h=549",
+            "title": "Lexus LFA",
+            "author": "Lexus LFA",
+            "text": "On a relatively slow news day for the Japanese carmaker where it announced the small matter of 30 battery electric cars by 2030, the biggest surprise came when boss Toyoda outlined his plans for Lexus."
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2021/09/DR720S1.jpg?w=976&h=549",
+            "title": "McLaren 720S",
+            "author": "McLaren 720S",
+            "text": "Good news for any Daniel Ricciardo fans in his home country that had their hearts set on a McLaren 720S – you can now buy a special Honey Badger edition (not its official name, sadly) courtesy of MSO. "
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2022/03/APRIL%20FOOL%20FRONT%2034.jpg?w=976&h=549",
+            "title": "Land Rover Discovery",
+            "author": "Land Rover Discovery",
+            "text": "Today, British 4x4 specialist Land Rover has announced the next Land Rover Discovery will be a lightweight sports car. \n\nTired of all the traditional sports car makers – Ferrari, Lamborghini, Alpine, Aston Martin and now even Lotus – muscling onto its patch with big lifestyle SUVs, Land Rover has decided to beat them all at their own game. "
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2021/09/Envisage%20-%207X%20Design%20Rayo%20Hypercar%200.jpg?w=976&h=549",
+            "title": "Lamborghini Huracan ‘Rayo’",
+            "author": "Lamborghini Huracan ‘Rayo’",
+            "text": "Take a deep breath, because there’s quite a bit to take in here. You’re looking at the Rayo, a Lamborghin Huracan that’s just emptied its life savings on both protein shakes and major cosmetic surgery... all with a punchy target in mind."
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2021/08/2010-Pagani-Zonda-R-Evolution-_0.jpg?w=976&h=549",
+            "title": "Pagani Zonda R Evolution",
+            "author": "Pagani Zonda R Evolution",
+            "text": "You’ll have noticed that outer space is fast becoming a billionaire’s playground. Here at TG – ever the consumer champions – we may have found a cheaper, albeit metaphorical way of blasting into the outer realms of this world."
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/2021/07/588386.jpg?w=976&h=549",
+            "title": "Lamborghini Aventador",
+            "author": "Lamborghini Aventador",
+            "text": "Which will no doubt make the Ultimae, a car Lamborghini calls “the grand finale of the traditional V12 combustion engine, and the ultimate Aventador in every sense,\" a hugely collectible object from the moment it’s released. That said they are building quite a few – 350 coupes and 250 roadsters – meaning you may still be able to get on the list. The price hasn’t been disclosed, natch. "
+          },
+          {
+            "img": "https://www.topgear.com/sites/default/files/news-listicle/image/2010-bugatti-veyron-sang-1_1600x0w.jpg?w=848&h=477",
+            "title": "Veyron Sang d'Argent, Nocturne",
+            "author": "Veyron Sang d'Argent, Nocturne",
+            "text": "Strangely enough, Bugatti sold lots of Veyrons to customers in the Middle East. We know right? In December 2009 it decided to honour this with three different special editions, of which only five would be made in total. The Sang d'Argent (pictured) was the shiniest, but all three featured polished aluminium and mega price tags."
+          }
+        ]
       },
-        {
-          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/li1035821_jl37193.jpg?w=848&h=477",
-          "title": "Audi R8 V10 Manual",
-          "author": "Audi R8 V10 Manual",
-          "text": "Its styling and rock-solid Audi cabin have aged well. Uses 4WD and a small nat-asp V8 to terrific effect, making you concentrate, but it won’t slap you"
-        },
-        {
-          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/mclaren_3.jpg?w=848&h=477",
-          "title": "McLaren 675TLT",
-          "author": "McLaren 675TLT",
-          "text": "The 675LT’s magically talkative steering works with a gorgeous chassis and buzz-saw engine. After just five years, Woking proved it could match any rival anywhere, anyhow"
-        },
-        {
-          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/nissan_1.jpg?w=848&h=477",
-          "title": "Nissan GT-R",
-          "author": "Nissan GT-R",
-          "text": "So unique and anti-establishment that it became a generation’s cultural phenomenon. Huge acceleration thanks to immense traction. Has a reputation for digital aloofness, but is actually soulful and analogue"
-        },
-        {
-          "img": "https://www.topgear.com/sites/default/files/news-listicle/image/porsche_0.jpg?w=848&h=477",
-          "title": "Porsche 911 GT3 RS 4.0 (997)",
-          "author": "Porsche 911 GT3 RS 4.0 (997)",
-          "text": "The Mezger engine’s mighty 4.0 swansong, a car you could drive to Le Mans and race there. Too serious to be a supercar? Maybe, but it elicits smiles as well as awe"
-        },
-        {
-          "img": "https://www.topgear.com/sites/default/files/2022/03/mansory-ferrari-roma-01.jpg?w=976&h=549",
-          "title": "Ferrari Roma",
-          "author": "Ferrari Roma",
-          "text": "Just look at the thing. Mansory describes this as a “complete conversion” with a whole load of new carbon fibre add-ons, a very sharp new front bumper, an aggressive rear diffuser and many other bits. You can even have a full carbon fibre bonnet and a choice of two different rear spoilers. It’s not shy, that’s for sure. "
-        }
-      ]
-
-    }
+      "Footer": {
+        "information": [
+          {
+            "title": "Who we are",
+            "sections": ["About", "Team", "Work with us"],
+            "link": ""
+          },
+          {
+            "title": "Vehicles",
+            "sections": ["Explore our vehicles", "Fleet & Business", "Documentations"],
+            "link": ""
+          },
+          {
+            "title": "Ownership",
+            "sections": ["Extended warranty", "Parts warranty", "Models", "Keep me informed"],
+            "link": ""
+          }
+        ],
+        "social": ["Instagram", "Facebook", "Twitter", "YouTube", "Google"]
+      },
+      "SubFooter": {
+        "paragraphs": ["© JAGUAR LAND ROVER LIMITED 2022",
+        "Jaguar Land Rover Limited: Registered office: Abbey Road, Whitley, Coventry CV3 4LF. Registered in England No: 1672070",
+        "Smart Settings is intended to be released as part of a future wireless software update. Software development and releases are subject to movements in planning and programming, and dates may be subject to change.",
+        "VIEW REGULATION (EU) 2020/740 PDF",
+        "All derivatives of Defender and Velar are available to order now. Please refer to your retailer for more detail on customer deliveries of Plug-in Hybrid models when placing your order.",
+        "Important note on imagery & specification. We are living through exceptional times. Due to the Covid pandemic we have been prevented or delayed in the creation of new images of current model years. Now the global impact of micro-chip shortages is further affecting build specifications, options and launch timings. Until this unique event settles, please note that many images cannot be updated to 22/23 model year specifications. Features, options, trim and colour schemes will differ from many images. Customers are urged to consult your local Retailer for detailed 22/23 model year specifications and do not base an order on marketing imagery and specification alone.",
+        "Jaguar Land Rover Limited is constantly seeking ways to improve the specification, design and production of its vehicles, parts and accessories and alterations take place continually, and we reserve the right to change without notice. Some features may vary between optional and standard for different model years. The information, specification, engines and colours on this website are based on European specification and may vary from market to market and are subject to change without notice. Some vehicles are shown with optional equipment and retailer-fit accessories that may not be available in all markets. Please contact your local retailer for local availability and prices.",
+        "WLTP is the new official EU test used to calculate standardised fuel consumption and CO2 figures for passenger cars. It measures fuel, energy consumption, range and emissions. This is designed to provide figures closer to real-world driving behaviour. It tests vehicles with optional equipment and with a more demanding test procedure and driving profile.",
+        "The figures provided are manufacturer’s estimates and will be replaced with the official EU test figures as soon as they are available. For comparison purposes only. Real world figures may differ. CO2 and fuel economy figures may vary according to factors such as driving styles, environmental conditions, load, wheel fitment and accessories."]
+      }
+    },
+    "RU_layout": {}
   }
 
 }
